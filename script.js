@@ -21,7 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const message = document.getElementById('messageInput').value;
 
         // Simple form validation
-        if (name && email && message) {
+        if (name && email && message) { 
+            
             formMessage.textContent = `Thank you, ${name}! Your message has been sent.`;
             formMessage.className = 'success';
             formMessage.style.display = 'block';
